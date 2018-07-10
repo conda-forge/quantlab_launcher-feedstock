@@ -14,14 +14,15 @@ Summary: A Launcher for QuantLab based applications.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/quantlab_launcher-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/quantlab_launcher-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/quantlab_launcher-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/quantlab_launcher-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/quantlab_launcher-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/quantlab-launcher-feedstock/branch/master)
+All platforms:
+[![noarch](https://img.shields.io/circleci/project/github/conda-forge/quantlab_launcher-feedstock/master.svg?label=noarch)](https://circleci.com/gh/conda-forge/quantlab_launcher-feedstock)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/quantlab_launcher/badges/version.svg)](https://anaconda.org/conda-forge/quantlab_launcher)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/quantlab_launcher/badges/downloads.svg)](https://anaconda.org/conda-forge/quantlab_launcher)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-quantlab_launcher-green.svg)](https://anaconda.org/conda-forge/quantlab_launcher) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/quantlab_launcher.svg)](https://anaconda.org/conda-forge/quantlab_launcher) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/quantlab_launcher.svg)](https://anaconda.org/conda-forge/quantlab_launcher) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/quantlab_launcher.svg)](https://anaconda.org/conda-forge/quantlab_launcher) |
 
 Installing quantlab_launcher
 ============================
@@ -66,6 +67,7 @@ To manage the continuous integration and simplify feedstock maintenance
 Using the ``conda-forge.yml`` within this repository, it is possible to re-render all of
 this feedstock's supporting files (e.g. the CI configuration files) with ``conda smithy rerender``.
 
+For more information please check the [conda-forge documentation](https://conda-forge.org/docs/).
 
 Terminology
 ===========
